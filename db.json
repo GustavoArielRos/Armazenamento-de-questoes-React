@@ -1,0 +1,30 @@
+{
+  "folders": [
+    {
+      "id": "b518",
+      "pasta": "Matematica",
+      "questions": [
+        {
+          "questao": "3+3",
+          "resposta": "6",
+          "id": "0b65d6f8-440e-4e07-a047-54ab4c199370"
+        },
+        {
+          "questao": "3*3",
+          "resposta": "9",
+          "id": "00e20d95-946f-4915-98b2-0a72c1d7dbdd"
+        },
+        {
+          "questao": "Qual a capital da Uruguai?",
+          "resposta": "Montevidéu",
+          "id": "fc641c5b-ef44-4f93-a1d2-a744ff30ef1f"
+        }
+      ]
+    },
+    {
+      "id": "c35b",
+      "pasta": "Geografia",
+      "questions": []
+    }
+  ]
+}
