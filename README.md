@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Projeto de armazenamento de questões:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Resumo do projeto:
+-Basicamente é um armazenador de questões com respostas
+-O usuário pode criar,editar e deletar pastas
+-Em cada pasta o usuário pode criar,editar e deletar questões
 
-## Available Scripts
+##
+- Ele está responsivo, usei o react boot strap para fazer isso
+- Para abrir o projeto deve-se ter dois terminais um para abrir o "backend"(no caso é um simulação de backend, o json)(npm run backend) e o outro para abrir a parte frontend do projeto(npm start)
 
-In the project directory, you can run:
+##
 
-### `npm start`
+Explicando como o projeto funciona:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![image](https://github.com/GustavoArielRos/Armazenamento-de-questoes-React/assets/101509337/aff6b9fd-a98e-4c3d-b261-2ef0962f7dcc)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+-ele começa com duas opções adicionar pasta(la onde criasse as pastas) e verificar pastas(la onde posso editar ou excluir pasta e também  através dele posso chegar no local onde eu crio,edito e deleto questões)
 
-### `npm test`
+-Adicionar Pasta:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![image](https://github.com/GustavoArielRos/Armazenamento-de-questoes-React/assets/101509337/f2281e8d-f6ce-4f5e-8e24-8100996ec66c)
 
-### `npm run build`
+              .Aqui eu crio a pasta
+      
+-Verificar pastas:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![image](https://github.com/GustavoArielRos/Armazenamento-de-questoes-React/assets/101509337/f5b6db30-d3e5-4514-972b-6d72ebd65167)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+              .Aqui eu vejo todas as pastas que eu tenho criadas
+.Editar:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![image](https://github.com/GustavoArielRos/Armazenamento-de-questoes-React/assets/101509337/d203ebb9-bd27-4b27-a108-2714828529d0)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+	            .Aqui eu posso criar questões, eles são adicionadas e posso fazer coisas com elas
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![image](https://github.com/GustavoArielRos/Armazenamento-de-questoes-React/assets/101509337/f9bff62a-7848-4015-8e50-88b18deba5be)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+              .Clicando em editar eu posso modificar as questões
+  
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
